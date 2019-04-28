@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Weather plots display using html-css.">
+
+  <meta name="author" content="Siva V">
+
+  <title> Weather Data Visualizations</title>
+
+  <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+
+
+  <link rel="stylesheet" href="style.css"> 
+
+  
+
+</head>
+
+
+
+<body>
+
+<!-- Creates the Overall Grid -->
+
+<!-- Need to create a navbar with name and links to the right.  -->
+
+	
+
+
+
+ <!-- <div class="container"> -->
+
+ 
+
+ <div class="container-fluid">
+
+	<!-- row 1 has the headings needed across the page. -->
+
+    <div class="row">
+
+		<div class="col-md-12">
+
+			<!-- <div class="box-set">
+
+				<figure class="box box-1">Latitude</figure>
+
+			</div>  -->
+
+		  
+
+		  
+
+		  <nav class="navbar navbar-default">
+
+			<div class="container-fluid">
+
+			  <!-- Brand and toggle get grouped for better mobile display -->
+
+			  <div class="navbar-header">
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+				<span class="sr-only">Toggle navigation</span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+			  </button>
+
+				<a class="navbar-brand" href="Home.html">Weather at Different Latitudes</a>
+
+			  </div>
+
+
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<ul class="nav navbar-nav navbar-right">
+
+				  
+
+				  <li class="dropdown">
+
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span>
+
+					</a>
+
+					<ul class="dropdown-menu" role="menu">
+
+					  <li><a href="Temperature.html">Max Temperature</a></li>
+
+					  <li><a href="Humidity.html">Humidity</a></li>
+
+					  <li><a href="Cloudiness.html">Cloudiness</a></li>
+
+					  <li><a href="Windspeed.html">Windspeed</a></li>
+
+					  <!-- <li role="separator" class="divider"></li>
+
+					  <li><a href="#">Windspeed</a></li> -->
+
+					  
+
+					</ul>
+
+					<li><a href="comparison.html">Comparison</a></li>
+
+					<li><a href="Data.html">Data</a></li>
+
+				  </li>
+
+				</ul>
+
+			  </div>
+
+			  <!-- /.navbar-collapse -->
+
+			  
+
+			</div>
+
+			<!-- /.container-fluid -->
+
+		  </nav>
+
+			
+
+		
+
+	
+
+	    </div>
+
+	</div>
+
+	
+
+	<!-- <div class="jumbotron"> -->
+
+		  
+
+	<!-- Row 2 -->
+
+ 	<div class="row">
+
+		<div class="col-md-8">
+
+			
+
+			<h2> Comparing weather features at different latitudes </h2>
+
+
+
+		</div>
+
+		
+
+		<div class="col-md-2">
+
+			<h3> Visualizations </h3>
+
+		</div>
+
+		<div class="col-md-2">
+
+			
+
+		</div>
+
+
+
+		
+
+    </div>
+
+	
+
+	<!-- Row 3 -->
+
+	<div class="row">
+
+		<div class="col-md-6">
+
+
+                <p>
+
+                        <em>On this site you will find a comparision of weather components made between 500 cities across the world. 
+                            We compared the cities Latitude with 4 different weather components:
+              
+                            1) Windspeed
+                            2) Max Temperature
+                            3) Humidity
+                            4) Cloudiness
+              
+                            To create these visualizations, Python was used to extract, clean and plot the data with the help of PYthon's Pandas and Matplotlib libraries.
+                            Bootstrap was used to create this site and share my findings.
+              
+              
+                            
+              
+                        </em>
+              
+                      </p>
+
+
+		</div>
+
+		
+
+		<div class="col-md-3">
+
+        <h6> Latitude vs Max Temp </h6>
+
+			<a target="_blank" href="Temperature.html">
+
+			<img src="Max_Temp_vs_Latitude.JPG" alt="Max Temperature" width ="80%">
+
+			</a>
+
+		</div>
+
+		<div class="col-md-3">
+
+        <h6> Latitude vs Humidity </h6>
+
+			<a target="_blank" href="Humidity.html">
+
+			<img src="Humidity_vs_Latitude.JPG" alt="Humidity vs Latitude" width ="80%">
+
+			</a>
+
+		</div>
+
+
+
+	 </div>
+
+	 
+
+	<!-- Row 4 -->
+
+	<div class="row">
+
+
+
+		<div class= "col-lg-6" "col-md-8">
+
+                <article>
+
+                        <a target="_blank" href="Temperature.html">
+        
+                        <img src="Max_Temp_vs_Latitude.JPG" alt="Max Temperature vs Latitude" width ="80%">
+        
+                        </a>
+        
+                    </article>
+
+
+		</div>
+
+		<div class="col-lg-3" "col-md-2">
+
+        <h6> Latitude vs Wind Speed  </h6>
+
+			<a target="_blank" href="Windspeed.html">
+
+			<img src="Windspeed_vs_Latitude.JPG" alt="Windspeed vs Latitude" width ="80%">
+
+			</a>
+
+		</div>
+
+		
+
+		<div class="col-lg-3" "col-md-2">
+
+        <h6> Latitude vs Cloudiness </h6>
+
+			<a target="_blank" href="Cloudiness.html">
+
+			<img src="Cloudiness_vs_Latitude.JPG" alt="Cloudiness vs Latitude" width ="80%">
+
+			</a>
+
+		</div>
+
+		<div class= "col-lg-2" "col-md-2">
+
+		</div>
+
+	
+
+	</div> 
+
+
+
+  
+
+ 
+
+<!-- jQuery library -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<!-- Latest compiled JavaScript -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+ 
+
+</body>
+
+
+
+</html>
